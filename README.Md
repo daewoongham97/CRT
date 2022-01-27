@@ -1,4 +1,4 @@
-# Readme File for "Using Machine Learning to Test Causal Hypotheses in Conjoint Analysis" by Ham, Imai, and Janson. (2022)
+## Readme File for "Using Machine Learning to Test Causal Hypotheses in Conjoint Analysis" by Ham, Imai, and Janson. (2022)
 ### All scripts were written and edited by Dae Woong Ham on 01/27/2022
 
 ### Code Overview ### 
@@ -15,7 +15,7 @@
 - "Simulations/Appendix/Figure5_leftplot.R"/"Simulations/Section4/Figure5_rightplot.R" produces results of Fig 5 # 50 and 33 hours of computing time respectively
 - "Simulations/Appendix/Figure7.R" produces results of Fig 7 # less than 5 minutes of computing time on FAS computing cluster
 
-### Obtaining new p-values (Section 5 and Table 1) -- around 40 minutes on computing cluster
+### Obtaining new p-values (Section 5 and Table 1)
 - All p-values in Section 5 are summarized and obtained in "Section5_ApplicationResults/pval_analysis.R"
 - "Section5_ApplicationResults/Immigration/main_analysis/obs_test_stat.R"/"Section5_ApplicationResults/Immigration/main_analysis/resampled_test_stats.R" produces observed and resampled test statistics to produce p-value in Table 1 row 1 column 1. # 30 minutes of total computing time
 - "Section5_ApplicationResults/Immigration/main_analysis/AMCE_pval.do" produces AMCE p-value in Table 1 row 1 column 2. #less than 5 seconds of total computing time
