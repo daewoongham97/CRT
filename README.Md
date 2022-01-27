@@ -1,5 +1,5 @@
 # Readme File for "Using Machine Learning to Test Causal Hypotheses in Conjoint Analysis" by Ham, Imai, and Janson. (2022)
-# All scripts were written and edited by Dae Woong Ham on 01/25/2022
+# All scripts were written and edited by Dae Woong Ham on 01/27/2022
 
 ## Code Overview ## 
 
