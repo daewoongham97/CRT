@@ -1,5 +1,6 @@
 # Replication Code for "Using Machine Learning to Test Causal Hypotheses in Conjoint Analysis" by Ham, Imai, and Janson. (2022)
 # helper source code for reading in Immigration Conjoint Analysis data from Hainmueller and Hopkins (2014)
+# written on 06/09/2022
 
 library(data.table)
 load("data/hh_data.RData")

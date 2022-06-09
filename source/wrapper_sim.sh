@@ -1,5 +1,7 @@
 # Replication Code for "Using Machine Learning to Test Causal Hypotheses in Conjoint Analysis" by Ham, Imai, and Janson. (2022)
 # wrapper script for left_fig_simulation.sh and right_fig_simulation.sh
+# written on 06/09/2022
+
 #!/bin/bash
 
 case "$#" in

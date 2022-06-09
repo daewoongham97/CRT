@@ -1,5 +1,6 @@
 # Replication Code for "Using Machine Learning to Test Causal Hypotheses in Conjoint Analysis" by Ham, Imai, and Janson. (2022)
 # helper source code for reading in Gender Conjoint Analysis data from Ono and Burden (2019)
+# written on 06/09/2022
 
 library(data.table)
 

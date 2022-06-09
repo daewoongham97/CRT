@@ -1,6 +1,7 @@
 * Replication Code for "Using Machine Learning to Test Causal Hypotheses in Conjoint Analysis" by Ham, Imai, and Janson. (2022)
 * Plotting AMCE results from Hainmueller and Hopkins (2014)
-* Producing results for Figure 1
+* Producing Figure 1
+* written on 06/09/2022
 * Originally obtained from Hainmueller and Hopkins (2014) replication file: rep_estimates.do. Minor edits were made to contain only estimates relevant for our project 
 
 clear all

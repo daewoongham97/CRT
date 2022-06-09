@@ -1,5 +1,6 @@
 # Replication Code for "Using Machine Learning to Test Causal Hypotheses in Conjoint Analysis" by Ham, Imai, and Janson. (2022)
-# sh script to execute all simulation scripts for the left figure (Replace `R_file_script.R' with one of the following scripts: Figure3_leftplot.R, Figure4_and_6_leftplot.R, Figure5_leftplot.R, Figure7.R)
+# sh script to execute all simulation scripts for the left figure 
+# written on 06/09/2022
 
 for j in {1..6}; do
 for i in {1..1000}; do

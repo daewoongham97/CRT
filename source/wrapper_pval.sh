@@ -1,5 +1,6 @@
 # Replication Code for "Using Machine Learning to Test Causal Hypotheses in Conjoint Analysis" by Ham, Imai, and Janson. (2022)
 # wrapper script for p_val.sh
+# written on 06/09/2022
 
 
 #!/bin/bash
