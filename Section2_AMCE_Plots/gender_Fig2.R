@@ -6,11 +6,7 @@
 library(ggplot2)
 
 ## Results obtained from original Ono and Burden (2019) paper
-general_dat = read.csv("data/Fig1_general.csv")
 pres_con_dat = read.csv("data/Fig1_officetype.csv")
-
-general = general_dat[general_dat$Attribute == "Sex", ]$Estimate[1]
-general_sds = general_dat[general_dat$Attribute == "Sex", ]$Std..Err[1]
 
 pres = pres_con_dat$Estimate[1]
 pres_sds = pres_con_dat$Std..Err[1]
@@ -26,7 +22,7 @@ a1 = 15
 a2 = 20
 a3 = 5
 
-ob_results = data.frame(x = c("Combined", "President", "Congress"), estimates = c(general, pres, con), lower = c(general - 1.96*general_sds, pres - 1.96*pres_sds, con - 1.96*con_sds), upper = c(general + 1.96*general_sds, pres + 1.96*pres_sds, con + 1.96*con_sds))
+ob_results = data.frame(x = c("President", "Congress"), estimates = c(pres, con), lower = c(pres - 1.96*pres_sds, con - 1.96*con_sds), upper = c(pres + 1.96*pres_sds, con + 1.96*con_sds))
 
 fig_2 = ggplot(ob_results, aes(x = x, y = estimates)) + geom_point(size = s) + geom_errorbar(aes(ymax = upper, ymin = lower), size = 2,width = 0.5) + xlab("") + ylab("AMCE") +  geom_hline(yintercept=0, linetype="dashed", color = "black", size=2)+
   ylim(c(-0.05, 0.02)) +
